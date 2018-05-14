@@ -16,7 +16,7 @@ The following packages are required:
  * numpy
  * scipy
  
- A pretrained version of VGG16 can be downloaded [here](ftp://mi.eng.cam.ac.uk/pub/mttt2/models/vgg16.npy).
+ A pretrained version of VGG16 can be downloaded [here](https://goo.gl/vfvQi2).
  
  
  ## References
