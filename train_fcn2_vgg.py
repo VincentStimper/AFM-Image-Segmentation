@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import os
 import scipy as scp
 import scipy.misc
 

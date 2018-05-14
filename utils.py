@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def color_image(image, num_classes=20):
     import matplotlib as mpl
     import matplotlib.cm

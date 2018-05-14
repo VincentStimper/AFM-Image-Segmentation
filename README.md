@@ -11,12 +11,33 @@ The code was inspired by [[2]](https://github.com/MarvinTeichmann/tensorflow-fcn
 
 ## Requirments
 
+The code was developed for and tested with Python 3.6.
+
 The following packages are required:
  * tensorflow
  * numpy
- * scipy
+ * scipy  
+ 
+ To install them run
+ ```
+pip3 install --upgrade tensorflow-gpu
+pip3 install numpy scipy
+```
  
  A pretrained version of VGG16 can be downloaded [here](https://goo.gl/vfvQi2).
+ 
+ 
+ ## Usage
+ 
+ The files `fcn8_vgg.py`, `fcn4_vgg.py`, and `fcn2_vgg.py` contain the class to create and build the models. This is done like:
+ ```
+ vgg_fcn = fcn8_vgg.FCN8VGG()  
+ vgg_fcn.build(images)
+ ```
+ The file `utils.py` contains a function to save the network predictions as an image. To train the network run
+ ```
+python3 train_fcn8_vgg.py
+```
  
  
  ## References
