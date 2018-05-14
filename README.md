@@ -5,8 +5,8 @@ Atomic Force Microscopy (AFM) images with DNA strands and nucleosome can be segm
 
 ## Network architecture
 
-The network architecture is based on [1]. Take VGG16 and transform the fully connected layers to convolutional layers. The features from these layers and the pooling layers get scored and upsampled. There are the architectures FCN-8, FCN-4, and FCN-2 where the number refers to the maximal upsampling factor.  
-The code was inspired by [2].
+The network architecture is based on [[1]](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf). Take VGG16 and transform the fully connected layers to convolutional layers. The features from these layers and the pooling layers get scored and upsampled. There are the architectures FCN-8, FCN-4, and FCN-2 where the number refers to the maximal upsampling factor.  
+The code was inspired by [[2]](https://github.com/MarvinTeichmann/tensorflow-fcn).
 
 
 ## Requirments
